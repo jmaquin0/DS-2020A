@@ -9,7 +9,7 @@
 
 # Escenario 01
 
-Con el fin de probar una aplicación web, se requiere montar un servidor con CentOS 8.1 y el servidor web NGINX.
+Con el fin de probar una aplicación web, se requiere montar un servidor con CentOS 8.1, donde se ejecute el servidor web NGINX.
 
 ## Pre Requisitos
 - [virtualBox](https://www.virtualbox.org/)
@@ -25,4 +25,28 @@ un documento en formato MarkDown (se suguiere el nombre Escenario01.MD) que cont
 1. Nombres completos y códigos de los estudiantes.
 2. Documentación y evidencias de la realización de cada una de las actividades propuestas.
 3. Dificultades encontradas en el proceso.
-4. Escriba en máximo 3 párrafos por qué esta forma de crear ambiente de pruebas puede ser apropiado (o inapropiado) para desplegar réplicas de este ambiente de pruebas.
+4. Escriba en máximo 3 párrafos por qué esta forma de crear ambiente de pruebas puede ser apropiado (o inapropiado) para desplegar réplicas de este ambiente.
+
+# Escenario 02
+
+Con el fin de probar una aplicación web, se requieren montar dos servidores con CentOS 8.1: en al primero se ejecutará el servidor web NGINX y en el segundo un servidor de PostgreSQL
+
+## Pre Requisitos
+- [virtualBox](https://www.virtualbox.org/)
+- [vagrant](http://vagrantup.com)
+- [Saltstack](https://www.saltstack.com/)
+
+
+## Actividades.
+1. Con acompañamiento del profesor elabore la creación y provisionamiento de la máquina virtual para la base de datos.
+2. Realice la conexión via SSH a la máquina virtual (con acompañamiento del profesor)
+3. Destruya y reconstruya la máquina virtual de la BD (con acompañamiento del profesor). 
+4. A partir del conocimiento anterior cree y provisione la máquina virtual para el servidor web, recuerde que el servidor web sea acessible desde la máquina local.
+
+
+## Entregable
+un documento en formato MarkDown (se suguiere el nombre Escenario02.MD) que contenga:
+1. Nombres completos y códigos de los estudiantes.
+2. Documentación y evidencias de la realización de cada una de las actividades propuestas.
+3. Dificultades encontradas en el proceso.
+4. Escriba en máximo 3 párrafos por qué esta forma de crear ambiente de pruebas puede ser apropiado (o inapropiado) para desplegar réplicas de este ambiente.
